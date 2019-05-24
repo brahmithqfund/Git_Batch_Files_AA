@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Test.OHILP.Executionbatchfile_OH_ILP">
+        <methods>
+          <include name="endReport"/>
+          <include name="CO_ILP_Loan_first_payment_BNK_Second_deposit"/>
+          <include name="tearDown"/>
+          <include name="LonI_DFLT_PPN_BNK_1InstDeposit"/>
+          <include name="LonI_Bnkrupt_Discharge"/>
+          <include name="LonI_Bnkrupt_Dismissed"/>
+          <include name="setup"/>
+          <include name="LonI_Deceased"/>
+          <include name="Pick_ILP_WriteoffLoan_ConvertEPP_PPayAllInstallementBeforeDueDate_Void"/>
+          <include name="LonI_IstInstPayment_ACTM_2ndInstDeposit_Verify_Record"/>
+          <include name="LonI_IstInstPayment_ACTM_ACHRevoke_2ndInstDeposit_Verify_Record"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+          <include name="getResult"/>
+          <include name="BorrowerRegistration_ActiveMilitary_NewLoanNotProcessed_"/>
+          <include name="Loan_Bankrupt_Void_"/>
+          <include name="LonI_Bnkrupt_Deceased"/>
+          <include name="Loan_1stpayment_activemilitary_2ndpayment_"/>
+          <include name="LonI_WO_PPN_1stInstpymt_VoidPymt_RunEODbatch35daysfromduedate"/>
+        </methods>
+      </class> <!-- Test.OHILP.Executionbatchfile_OH_ILP -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

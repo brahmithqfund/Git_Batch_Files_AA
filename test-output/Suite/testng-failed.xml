@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Test.CO_ILP.Executionbatchfile_CO_ILP">
+        <methods>
+          <include name="AA_Loan1stInsatallmentEODbatchprocess_Cure_1stInsatllPayment_void_CureenddateDefault"/>
+          <include name="CO_ILP_Loan_DefaulPartialPayment_EncryptionVoid"/>
+          <include name="Loan_PmtAllInstExceptLast_DFLTLastInst_"/>
+          <include name="tearDown"/>
+          <include name="AA_Loan1stInsatallmentEODbatchprocess_Cure_Less1stInsatllPayment_CureenddateDefault"/>
+          <include name="Loan_1stdeposit_clr_payoff_clear_return_"/>
+          <include name="AA_Loan1stInsatallmentEODbatchprocess_Cure_Default"/>
+          <include name="Loan_DFLT_30PerDFLTPmt_void_EODBatchProcessDFLTdate60days_"/>
+          <include name="getResult"/>
+          <include name="LonI_DFLT_Pymt_20percentofDFLTamt_EODbatchprocess_DFLTPLUS60"/>
+          <include name="CO_ILP_Loan_DefaulPartialPayment_Void"/>
+          <include name="Loan_PmtAllExceptLast_DepLast_Clear_Return_"/>
+          <include name="AA_Loan1stInsatallmentEODbatchprocess_Cure_BeforeCureenddateDefault"/>
+          <include name="Loan_DFLT_WO_WORecFullWithAllTenderTypes_"/>
+          <include name="CO_ILP_Loan_DefaultPayment"/>
+          <include name="quit"/>
+          <include name="setup"/>
+          <include name="CO_ILP_Loan_DefaulPayment_Void"/>
+          <include name="AA_Loan1stInsatallmentEODbatchprocess_Cure_1stInsatllPayment_CureenddateDefault"/>
+          <include name="LonI_DFLT_EODbatchprocess_DFLTPLUS60"/>
+          <include name="initialize"/>
+          <include name="LonI_DFLT_Pymt_15percentofDFLTamt_EODbatchprocess_DFLTPLUS120"/>
+        </methods>
+      </class> <!-- Test.CO_ILP.Executionbatchfile_CO_ILP -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
